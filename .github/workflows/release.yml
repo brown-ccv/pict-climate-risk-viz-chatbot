@@ -14,7 +14,7 @@ env:
   # URL for the Google Artifact Registry: formatted as `${location}-docker.pkg.dev`, where location is often `us-central1`.
   gcp_registry_url: us-central1-docker.pkg.dev
   # Name for your artifact registry for this project.
-  gcp_artifact_registry: cloud-run-preview-images
+  gcp_artifact_registry: crsph-containers
   # However you want to name your images in the artifact registry
   image: ${{ github.event.repository.name }}-release
 
